@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   resources :articles
 
-  root 'welcome#jaba'
+  root 'welcome#index'
 end

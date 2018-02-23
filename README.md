@@ -1,6 +1,6 @@
 # *TRACKPEDIA*
 
-# 1. Setup
+# 1. Setup Backend
 
 ### 1.1 Ruby 2.5.0
 
@@ -44,3 +44,17 @@ Verify its installation with `sqlite3 --version`
 Install it with `gem install rails`
 
 Verify it with `rails --version`
+
+### 1.4 Gem Dependencies
+
+Install them with `bundle install`
+
+### 1.5 Create DB
+
+`bin/rails db:migrate`
+
+### 1.6 run server to port 3000
+
+`bin/rails server`
+
+# 2. Setup Frontend
